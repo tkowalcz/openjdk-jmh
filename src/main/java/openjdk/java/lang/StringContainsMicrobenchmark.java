@@ -23,7 +23,7 @@ public class StringContainsMicrobenchmark {
     // Cannabis is selected so there will be multiple partial matches against eg. can-dy, ca-ke, ca-nes etc.
     // xyz is selected so that there are no partial matches
     @SuppressWarnings("unused")
-    @Param({"cannabis", "xyz"})
+    @Param({"cannabis", "xyz", "Cheesecake powder caramels cupcake tiramisu jelly"})
     private String searchString;
     private StringBuilder searchCharSequence;
 
