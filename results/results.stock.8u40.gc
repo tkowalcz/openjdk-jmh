@@ -1,0 +1,124 @@
+java version "1.8.0_40"
+Java(TM) SE Runtime Environment (build 1.8.0_40-b25)
+Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
+
+# Run complete. Total time: 00:06:04
+
+Benchmark                                                                                                                          (searchString)  Mode  Cnt     Score     Error   Units
+StringContainsMicrobenchmark.longStringContainsCharSequence                                                                              cannabis  avgt   10  1226.807 ?   4.292   ns/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate                                                               cannabis  avgt   10    24.872 ?   0.086  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate.norm                                                          cannabis  avgt   10    32.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                      cannabis  avgt   10    25.738 ?   2.287  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                                 cannabis  avgt   10    33.114 ?   2.886    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                  cannabis  avgt   10     0.009 ?   0.023  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                             cannabis  avgt   10     0.012 ?   0.029    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.count                                                                    cannabis  avgt   10    10.000            counts
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.time                                                                     cannabis  avgt   10     5.000                ms
+StringContainsMicrobenchmark.longStringContainsCharSequence                                                                                   xyz  avgt   10  1174.476 ?   1.110   ns/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate                                                                    xyz  avgt   10    19.485 ?   0.020  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate.norm                                                               xyz  avgt   10    24.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                           xyz  avgt   10    21.792 ?  17.441  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                                      xyz  avgt   10    26.848 ?  21.489    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                       xyz  avgt   10     0.137 ?   0.608  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                                  xyz  avgt   10     0.169 ?   0.749    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.count                                                                         xyz  avgt   10     8.000            counts
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.time                                                                          xyz  avgt   10     6.000                ms
+StringContainsMicrobenchmark.longStringContainsCharSequence                                     Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  1229.643 ?   6.297   ns/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate                      Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    93.044 ?   0.469  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.alloc.rate.norm                 Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   120.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space             Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    91.953 ?   0.042  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm        Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   118.597 ?   0.612    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space         Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.069 ?   0.037  MB/sec
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm    Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.089 ?   0.048    B/op
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.count                           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    41.000            counts
+StringContainsMicrobenchmark.longStringContainsCharSequence:?gc.time                            Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    19.000                ms
+StringContainsMicrobenchmark.longStringContainsString                                                                                    cannabis  avgt   10  1219.817 ?   5.042   ns/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate                                                                     cannabis  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate.norm                                                                cannabis  avgt   10     0.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.count                                                                          cannabis  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.longStringContainsString                                                                                         xyz  avgt   10  1165.715 ?   0.103   ns/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate                                                                          xyz  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate.norm                                                                     xyz  avgt   10     0.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.count                                                                               xyz  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.longStringContainsString                                           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  1215.850 ?   1.438   ns/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate                            Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.longStringContainsString:?gc.alloc.rate.norm                       Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.002 ?   0.007    B/op
+StringContainsMicrobenchmark.longStringContainsString:?gc.count                                 Cheesecake powder caramels cupcake tiramisu jelly  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                                                            cannabis  avgt   10   508.909 ?   2.039   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate                                                             cannabis  avgt   10    59.956 ?   0.240  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate.norm                                                        cannabis  avgt   10    32.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                    cannabis  avgt   10    59.777 ?  17.948  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                               cannabis  avgt   10    31.915 ?   9.656    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                cannabis  avgt   10     0.056 ?   0.043  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                           cannabis  avgt   10     0.030 ?   0.023    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.count                                                                  cannabis  avgt   10    26.000            counts
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.time                                                                   cannabis  avgt   10    12.000                ms
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                                                                 xyz  avgt   10   499.116 ?   0.250   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate                                                                  xyz  avgt   10    45.850 ?   0.023  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate.norm                                                             xyz  avgt   10    24.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                         xyz  avgt   10    43.734 ?  10.753  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                                    xyz  avgt   10    22.894 ?   5.631    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                     xyz  avgt   10     0.056 ?   0.054  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                                xyz  avgt   10     0.029 ?   0.028    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.count                                                                       xyz  avgt   10    19.000            counts
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.time                                                                        xyz  avgt   10     9.000                ms
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                   Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   483.382 ?   0.761   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate                    Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   236.705 ?   0.360  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.alloc.rate.norm               Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   120.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   236.783 ?  16.843  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm      Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   120.044 ?   8.681    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space       Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.087 ?   0.054  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm  Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.044 ?   0.027    B/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.count                         Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   103.000            counts
+StringContainsMicrobenchmark.mediumStringContainsCharSequence:?gc.time                          Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    44.000                ms
+StringContainsMicrobenchmark.mediumStringContainsString                                                                                  cannabis  avgt   10   500.080 ?   0.312   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate                                                                   cannabis  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate.norm                                                              cannabis  avgt   10     0.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.count                                                                        cannabis  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.mediumStringContainsString                                                                                       xyz  avgt   10   491.500 ?   0.284   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate                                                                        xyz  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate.norm                                                                   xyz  avgt   10     0.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.count                                                                             xyz  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.mediumStringContainsString                                         Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   473.744 ?   0.193   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate                          Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.alloc.rate.norm                     Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.001 ?   0.003    B/op
+StringContainsMicrobenchmark.mediumStringContainsString:?gc.count                               Cheesecake powder caramels cupcake tiramisu jelly  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                                                             cannabis  avgt   10    26.605 ?   0.077   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate                                                              cannabis  avgt   10  1146.811 ?   3.378  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate.norm                                                         cannabis  avgt   10    32.000 ?   0.001    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                     cannabis  avgt   10  1148.087 ?  43.272  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                                cannabis  avgt   10    32.036 ?   1.199    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                 cannabis  avgt   10     0.097 ?   0.093  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                            cannabis  avgt   10     0.003 ?   0.003    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.count                                                                   cannabis  avgt   10   218.000            counts
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.time                                                                    cannabis  avgt   10    99.000                ms
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                                                                  xyz  avgt   10    29.127 ?   0.051   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate                                                                   xyz  avgt   10   785.653 ?   1.356  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate.norm                                                              xyz  avgt   10    24.000 ?   0.001    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space                                                          xyz  avgt   10   785.385 ?  18.875  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm                                                     xyz  avgt   10    23.992 ?   0.551    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space                                                      xyz  avgt   10     0.084 ?   0.097  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm                                                 xyz  avgt   10     0.003 ?   0.003    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.count                                                                        xyz  avgt   10   221.000            counts
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.time                                                                         xyz  avgt   10    97.000                ms
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                    Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    16.726 ?   0.022   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate                     Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  6840.249 ?   8.093  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.alloc.rate.norm                Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   120.000 ?   0.001    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space            Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  6816.783 ? 206.552  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Eden_Space.norm       Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   119.589 ?   3.665    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space        Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.106 ?   0.167  MB/sec
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.churn.PS_Survivor_Space.norm   Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.002 ?   0.003    B/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.count                          Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   215.000            counts
+StringContainsMicrobenchmark.shortStringContainsCharSequence:?gc.time                           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    99.000                ms
+StringContainsMicrobenchmark.shortStringContainsString                                                                                   cannabis  avgt   10    19.449 ?   0.003   ns/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate                                                                    cannabis  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate.norm                                                               cannabis  avgt   10    ? 10??              B/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.count                                                                         cannabis  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.shortStringContainsString                                                                                        xyz  avgt   10    22.586 ?   0.003   ns/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate                                                                         xyz  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate.norm                                                                    xyz  avgt   10    ? 10??              B/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.count                                                                              xyz  avgt   10       ? 0            counts
+StringContainsMicrobenchmark.shortStringContainsString                                          Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     7.441 ?   0.033   ns/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate                           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     0.002 ?   0.006  MB/sec
+StringContainsMicrobenchmark.shortStringContainsString:?gc.alloc.rate.norm                      Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    ? 10??              B/op
+StringContainsMicrobenchmark.shortStringContainsString:?gc.count                                Cheesecake powder caramels cupcake tiramisu jelly  avgt   10       ? 0            counts

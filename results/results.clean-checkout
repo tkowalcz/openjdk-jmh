@@ -1,0 +1,25 @@
+openjdk version "1.9.0-internal"
+OpenJDK Runtime Environment (build 1.9.0-internal-root_2015_05_28_09_08-b00)
+OpenJDK 64-Bit Server VM (build 1.9.0-internal-root_2015_05_28_09_08-b00, mixed mode)
+
+# Run complete. Total time: 00:06:05
+
+Benchmark                                                                                                                          (searchString)  Mode  Cnt     Score     Error   Units
+StringContainsMicrobenchmark.longStringContainsCharSequence                                                                              cannabis  avgt   10  1230.703 ?   2.519   ns/op
+StringContainsMicrobenchmark.longStringContainsCharSequence                                                                                   xyz  avgt   10  1172.886 ?   0.900   ns/op
+StringContainsMicrobenchmark.longStringContainsCharSequence                                     Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  1226.292 ?   2.004   ns/op
+StringContainsMicrobenchmark.longStringContainsString                                                                                    cannabis  avgt   10  1212.750 ?   5.782   ns/op
+StringContainsMicrobenchmark.longStringContainsString                                                                                         xyz  avgt   10  1166.014 ?   0.935   ns/op
+StringContainsMicrobenchmark.longStringContainsString                                           Cheesecake powder caramels cupcake tiramisu jelly  avgt   10  1219.212 ?   1.304   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                                                            cannabis  avgt   10   512.444 ?   2.030   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                                                                 xyz  avgt   10   494.647 ?   0.331   ns/op
+StringContainsMicrobenchmark.mediumStringContainsCharSequence                                   Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   482.487 ?   0.430   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString                                                                                  cannabis  avgt   10   500.150 ?   0.273   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString                                                                                       xyz  avgt   10   491.156 ?   0.260   ns/op
+StringContainsMicrobenchmark.mediumStringContainsString                                         Cheesecake powder caramels cupcake tiramisu jelly  avgt   10   473.731 ?   0.261   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                                                             cannabis  avgt   10    26.702 ?   0.281   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                                                                  xyz  avgt   10    29.504 ?   0.197   ns/op
+StringContainsMicrobenchmark.shortStringContainsCharSequence                                    Cheesecake powder caramels cupcake tiramisu jelly  avgt   10    17.161 ?   0.268   ns/op
+StringContainsMicrobenchmark.shortStringContainsString                                                                                   cannabis  avgt   10    19.478 ?   0.134   ns/op
+StringContainsMicrobenchmark.shortStringContainsString                                                                                        xyz  avgt   10    22.587 ?   0.005   ns/op
+StringContainsMicrobenchmark.shortStringContainsString                                          Cheesecake powder caramels cupcake tiramisu jelly  avgt   10     7.804 ?   0.481   ns/op
